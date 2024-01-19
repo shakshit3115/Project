@@ -1,0 +1,40 @@
+ .logo{
+	  float:center;
+	  width:50px;
+	  height:50px;
+	  margin-left:0px;
+  }
+  .icon{
+	  float:right;
+	  width:50px;
+	  height:50px;
+	  margin-top:-5px;
+	  margin-right:0px;
+  }
+  .navigation-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+  }
+  .arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}

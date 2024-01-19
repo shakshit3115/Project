@@ -1,0 +1,48 @@
+
+body{
+	background-color:;
+	background-image:
+}
+
+.container{
+	width:500px;
+	height:auto;
+	
+	margin-top:20px;
+	background-image: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+	
+	border:5px solid pink;
+
+}
+input{
+	margin-top:10px;
+}
+textarea{
+	margin-top:10px;
+}
+.subbutton,.rebutton{
+	background:pink;
+}
+
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}

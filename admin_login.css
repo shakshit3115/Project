@@ -1,0 +1,141 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f2f5;
+    background-image: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f0f2f5;
+    background-image: linear-gradient(135deg, #f6d365 0%, #fda085 100%); 
+    border: 2px solid #ccc;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 4px 0;
+    border: 3px solid #ccc;
+    border-radius: 4px;
+}
+
+.signin-button {
+    background-color: #FF5733;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 7px solid #ff8c42;
+    width: 490px;
+    height: 550px;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 2rem;
+    position: relative;
+    animation-duration: 1.5s;
+    animation-name: rightMovement;
+    animation-timing-function: ease-out;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+}
+@keyframes rightMovement{
+    from{
+        top: 0px;
+        left: -560px;
+
+    }
+    to{
+        top: 0px;
+        left: 200px;
+    }
+}
+
+
+
+
+#box2 h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color:black;
+    text-align:center;
+}
+
+#box2 p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #6A737B;
+    text-align: center;
+}
+
+#box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 7px solid #ff8c42;
+    width: 315px;
+    height: 550px;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 2rem;
+    position: relative;
+    animation-duration: 1.5s;
+    animation-name: leftMovement;
+    animation-timing-function: ease-out;
+    /* animation-delay: 1s; */
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-iteration-count: 1;
+}
+
+
+@keyframes leftMovement{
+    from{
+          top: -590px;
+          left: 460px;
+
+    }
+    to{
+        top: -590px;
+        left: -195px;
+
+    }
+}
